@@ -1,11 +1,5 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    /* background-color: #121212; */
-    /* background: #121212;
-    background: linear-gradient(138deg, #121212 50%, #f2f2f2 100%);
-    background: -webkit-linear-gradient(138deg, #121212 50%, #f2f2f2 100%);
-    background: -moz-linear-gradient(138deg, #121212 50%, #f2f2f2 100%); */
-    /* background: linear-gradient(135deg, #009ec3 42%,#00b7ea 52%,#00b7ea 52%,#00b7ea 53%,#00b7ea 81%); W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     background-image: url(./img/teste-fundo.png);
     background-size: cover;
     background-position: center;
@@ -20,13 +14,7 @@ body {
 }
 
 .container {
-    /* background-color: #1E1E1E;
-    border-radius: 8px;
-    padding: 10px;
-    text-align: center;
-    width: 300px;
-    max-width: 80%; */
-        background-color: #1E1E1E;
+    background-color: #1E1E1E;
     border-radius: 16px;
     padding: 30px;
     text-align: center;
@@ -59,7 +47,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
     border-radius: 40px;
     margin: 20px 0;
     background-color: #121212;
@@ -83,12 +70,7 @@ body {
     color: #FFFFFF;
 }
 
-.img-link
-
 .container .link i {
-    /* color: #FFFFFF;
-    font-size: 20px;
-    background-color: #cecece; */
     color: #cecece;
     font-size: 24px;
 }
@@ -103,5 +85,9 @@ body {
         max-width: none;
         box-shadow: none;
         
+    }
+
+    .link {
+        transition: all 0.2s ease;
     }
 }
